@@ -1,0 +1,23 @@
+.search-bar {
+    /* background-color: aliceblue; */
+    display: inline-block;
+}
+
+.search-box {
+    width: max(30vw, 300px);
+    margin: 5px 10px;
+    padding: 2px 5px;
+    /* not customizing border. Looks fine. for now. */
+}
+
+.search-icon {
+    color: #232f47;
+    margin-bottom: -1.5px;
+}
+
+
+@media screen and (max-width:600px){
+    .search-bar {
+        margin-top: 10px;
+    }
+}

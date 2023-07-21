@@ -1,0 +1,47 @@
+.menutab {
+    display: inline-block;
+    width: fit-content;
+    position: absolute;
+    left: 0;
+
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.iconbg {
+    width: 20px;
+    height: 20px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #232f47;
+
+    margin: 15px 0;
+    box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.iconbg:hover {
+    background-color: white;
+}
+
+@media screen and (max-width: 600px){
+    .menutab {
+        margin-top: 0px;
+        margin-left: 2px;
+    }
+
+    .iconbg {
+        width: 20px;
+        height: 20px;
+        padding: 0.5rem;
+        border-radius: 50%;
+        background-color: #232f47;
+
+        margin: 15px 0;
+    }    
+}
