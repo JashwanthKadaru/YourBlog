@@ -44,11 +44,14 @@
 
 .new-post form textarea {
     height: 250px;
+    /* height: auto; */
     padding-top: 10px;
     padding-left: 10px;
+    /* resize: vertical; */
 
     font-family: monospace, sans-serif;
     letter-spacing: 1px;
+    /* overflow-y: auto; */
 }
 
 .new-post form #submit {
@@ -82,7 +85,20 @@
 }
 
 @media screen and (max-width:600px) {
+    .new-post-head1 {
+        display:inline-block;
+        font-size: 0.9rem;
+        text-align: center;
+        margin: 0 auto ;
+        margin-top: 20px;
+        margin-bottom: 2.5rem;
+    }
+
     .new-post form {
-        width: 95%;
+        width: 80%;
+    }
+
+    .new-post form textarea {
+        height: 55vh;
     }
 }

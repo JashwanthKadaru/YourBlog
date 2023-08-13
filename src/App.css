@@ -46,6 +46,21 @@ footer p {
   margin-left: 15px;
 }
 
+.ham {
+    /* position: absolute; */
+    margin-left: 8px;
+}
+
+#y {
+  margin: 0 -8px;
+  margin-left: 0px;
+}
+
+#b {
+  margin: 0;
+  margin-right: 25px;
+}
+
 @media screen and (max-width:600px){
   .App-header {
     padding: 10px;
@@ -60,6 +75,9 @@ footer p {
     margin-bottom: 0.5rem;
     font-size: 0.9rem;
   }
+  
+  footer {
+  }
 
   footer p {
     font-size: 0.8rem;
@@ -67,6 +85,20 @@ footer p {
   }
 
   .body {
-    margin-left: 15px;
+    min-height: 100vh;
+    margin-left: 0px;
+    /* padding:10px 0; */
+  }
+
+  .ham {
+    display: block;
+    /* position: absolute; */
+    position: relative;
+    left: 1px;
+  }
+
+  .ham {
+    /* position: absolute; */
+    margin-left: -1px;
   }
 }

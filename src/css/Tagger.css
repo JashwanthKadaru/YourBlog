@@ -1,0 +1,65 @@
+.tagger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.tag-btn {
+    width:fit-content;
+    display: inline-block;
+    margin-right: 15px;
+    transition: 0.3s;
+    background-color: #232f47;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.btn-show {
+    background-color: white;
+}
+
+.tags {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.hide {
+    /* transform: scale(0); */
+    display:none;
+    transition: 0.3s;
+}
+
+.tag {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    background-color: #232f4730;
+}
+
+.selected {
+    background-color: #232f47a0;
+}
+
+@media screen and (min-width: 600px) {
+    .tagger {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .tag-btn {
+        display: none;
+    }
+}

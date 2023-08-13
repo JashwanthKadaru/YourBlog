@@ -1,0 +1,101 @@
+.sign-up {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid black;
+
+    padding: 20px 5px;
+}
+
+.register {
+    margin-top: 15px;   
+}
+
+.register h2 {
+    letter-spacing: 2px;
+    font-family: 'Poppins', monospace;
+}
+
+.su-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-card {
+    width: 90%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px 1px rgba(0, 0, 0, 0.5);
+
+    padding: 20px 0px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    /* border: 1px solid black; */
+}
+
+.label label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #17264dd0;
+    margin-bottom: 5px;
+
+    margin-left: -10px;
+}
+
+.label input {
+    margin-left: -8px;
+    width: 100%;
+    border-radius: 50px;
+    padding: 3px 10px;
+}
+
+#su-btn {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px 15px;
+    background-color: #243769;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    box-shadow: 2px 2px 12px 1px rgba(0, 0, 0, 0.5);
+    transition: 0.1s;
+} 
+
+#su-btn:hover {
+    margin-top: 22px;
+    margin-bottom: 18px;
+    transition: 0.1s;
+} 
+
+@media screen and (max-width: 600px) {
+    .sign-up {
+        width: 70%;
+    }
+
+    .form-card {
+        width: 80%;
+        padding: 2px;
+    }
+
+    .label input {
+        width: 95%;
+        font-size: 0.75rem;
+    }
+
+}
